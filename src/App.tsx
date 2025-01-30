@@ -412,7 +412,7 @@ function App() {
             transition={{ duration: 1, delay: 0.2 }}
             className="max-w-4xl mx-auto text-center"
           >
-            <div className="relative inline-block mb-8">
+            <div className="relative inline-block mb-8 w-full max-w-full px-4">
               <motion.div
                 initial={{ scale: 0.9, opacity: 0 }}
                 animate={{ scale: 1, opacity: 1 }}
@@ -423,7 +423,8 @@ function App() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.5 }}
-                className="text-8xl md:text-9xl font-bold hero-text relative z-10"
+                className="hero-text relative z-10"
+                data-text="Sihi Kshanagalu"
               >
                 Sihi Kshanagalu
               </motion.h1>
@@ -1106,7 +1107,7 @@ function App() {
 
             {/* Copyright */}
             <p className="text-gray-600 font-medium">
-              © {new Date().getFullYear()} Sihi Kshanagalu. All rights reserved.
+              &copy; {new Date().getFullYear()} Sihi Kshanagalu. All rights reserved.
             </p>
           </motion.div>
         </div>
