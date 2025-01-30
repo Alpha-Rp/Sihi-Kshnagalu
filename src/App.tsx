@@ -424,9 +424,10 @@ function App() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.5 }}
                 className="hero-text relative z-10"
-                data-text="Sihi Kshanagalu"
               >
-                Sihi Kshanagalu
+                Sihi
+                <br />
+                Kshanagalu
               </motion.h1>
             </div>
 
